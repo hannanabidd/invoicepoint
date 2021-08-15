@@ -6,8 +6,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p{
-  color:##2B2B2B !important;
+  color:#2B2B2B !important;
   margin:0px !important;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
@@ -54,6 +55,7 @@ label{
 .p-20-15{
   padding:20px 15px;
 }
+
 
 
 /* Buttons */
@@ -168,6 +170,10 @@ label{
     padding-bottom: 50px;
 }
 
+.pt-50{
+  padding-top: 50px;
+}
+
 .pl-10{
     padding-left:10px
 }
@@ -254,7 +260,6 @@ label{
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .flex-end{
   display:flex;
@@ -275,6 +280,9 @@ label{
 .flex-space-around{
   display: flex;
   justify-content: space-around;
+}
+.flex-row{
+  flex-direction: row;
 }
 .flex-column{
   flex-direction: column;
@@ -356,15 +364,31 @@ label{
 } */
 
 .banner{
-    background-color: #F7F8FE;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.banner-organization{
+  background-repeat: no-repeat;
+  background-position: right;
+  /* background-size: cover; */
+  /* width: 696px; */
+}
+.banner-freelancers{
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .tryInvoice{
     background-color: #F7F8FE;
     height: 462px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.second-btn{
+/* .second-btn{
    margin-left: ;
-}
+} */
 .box{
     height: 153px;
     width: 260px;
@@ -407,9 +431,7 @@ label{
       height: 395px;
   }
   
-  .testImg{
-      
-  }
+  
 
   .planBox{
       height: 438px;
