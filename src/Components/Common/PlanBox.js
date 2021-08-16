@@ -52,7 +52,7 @@ function PlanBox(){
     return(
         <Fragment>
             {data.map((i => (
-                <div className="col-lg-3" key={i.id}>
+                <div className="col-lg-3 pt-20" key={i.id}>
                 <div className="planBox br-8 pl-20">
                         <h6 className="h-6 pt-15">
                             {i.planName}
