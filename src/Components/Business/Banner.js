@@ -11,7 +11,7 @@ function Banner(){
                     <div className="row">
                         <div className="col-lg-6">
                            <h1 className="h-1 h-bold pb-20"><span className="span-color">Support</span> The Needs <br/> of Your <span className="span-color">Support</span> </h1>
-                           <p className="paragraph pb-20">Invoice Point will balance transactions and client relationships<br/> for you, so you can have the time you need to focus on your<br/> business.</p>
+                           <p className="paragraph pb-20 pr-40">Invoice Point will balance transactions and client relationships for you, so you can have the time you need to focus on your business.</p>
                            <Buttons/>          
                             <Ticks/>
                          </div>

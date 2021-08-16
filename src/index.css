@@ -180,8 +180,18 @@ label{
 .pl-20{
     padding-left:20px
 }
+.pl-30{
+  padding-left:30px
+}
+
 .pr-20{
   padding-right: 20px;
+}
+.pr-30{
+  padding-right: 30px;
+}
+.pr-40{
+  padding-right: 40px;
 }
 
 
@@ -208,7 +218,7 @@ label{
   font-size:16px;
 }
 .paragraph{
-  font-size:14px;
+  font-size:12px;
 }
 .para-10{
     font-size:10px;
@@ -461,4 +471,121 @@ label{
   .sp-60{
     padding:40px 0px;
   }
+  .banner-freelancersr{
+    background-image: none;
+  }
+
+  /* buttons */
+
+  .s-btn{
+    outline:none;
+    border:none;
+    background-color: #2B2B2B;
+    color:white;
+    transition: 0.3s;
+    font-size:11px;
+    font-weight: 500;
+    height: 52px;
+    width: 146px;
+    border: 2px solid #2B2B2B;
+  }
+  .s-btn:hover{
+    background-color: white;
+    color: #2B2B2B;
+    border: 2px solid #2B2B2B;
+  }
+
+  /* Headings */
+.h_1{
+  font-size: 25px;
+}
+.h-1{
+font-size:25px;
+}
+.h-2{
+font-size:30px;
+}
+.h-3{
+font-size:20px;
+}
+.h-4{
+font-size:20px;
+}
+.h-5{
+font-size: 18px;
+}
+.h-6{
+font-size:16px;
+}
+.paragraph{
+font-size:14px;
+}
+.para-10{
+  font-size:10px;
+}
+.ticks-p{
+  font-size: 13px;
+
+}
+.freeTrial{
+  height: 575px;
+}
+.first-tick{
+  height: 25px ;
+}
+.second-tick{
+  padding-left: 10px;
+  height: 25px;
+}
+
+.Testimonial{
+  height: 705px;
+background-color: white;
+}
+.second-feature{
+  padding-left: 10px;
+}
+
+.l-btn{
+  outline:none;
+  border:none;
+  background-color: white;
+  color:#8B7DD5;
+  transition: 0.3s;
+  font-size:12px;
+  font-weight: 500px;
+  height: 40px;
+  width: 130px;
+  border: 2px solid #8B7DD5;
+}
+.l-btn:hover{
+  background-color: #8B7DD5;
+  color: white;
+  border: 2px solid #8B7DD5;
+}
+.freeimg{
+  /* padding-bottom: 0px; */
+  height: 195px;
+  width: 315px;
+  padding-top: 20px;
+}
+.feature-img{
+  height: auto;
+  width: 100%;
+}
+.feature-img-business{
+  height: auto;
+  width: 100%;
+}
+.feature-img-home{
+  height: auto;
+  width: 100%;
+}
+.feature-h-business{
+  padding-top: 30px;
+}
+/* margins */
+.ml-50{
+  margin-left: 0px;
+}
 }

@@ -16,29 +16,31 @@ function Features(){
                                         <p className="paragraph text-left paragraph pt-10">Invoice Point will take the weight off your shoulders and help you manage your payments and invoices in one app.</p>
                                 </div>
                         </div>
+                      </div>  
+                      <div className="container">
                         <div className="row sp-60">
                                 <div className="col-lg-6">
-                                         <img src="/images/Mask Group 7.png" alt="fast payment"></img>
+                                         <img src="/images/Mask Group 7.png" className="feature-img" alt="fast payment"></img>
                                 </div>
                                 <div className="col-lg-6 flex-align-items flex-column  ">
                                         <h3 className="h-3 pb-20 pl-10"><span className="span-color">Fast</span> Payements and <span className="span-color">Easy</span> Invoicing </h3>
-                                        <p className="paragraph pb-20 pl-10 ">Professional invoices and plenty of convenient payment options.<br/> Get paid faster and let your clients choose their favourite<br/> payment method.</p>
+                                        <p className="paragraph pb-20 pl-10 ">Professional invoices and plenty of convenient payment options. Get paid faster and let your clients choose their favourite payment method.</p>
                                 </div>
                         </div>
                         <div className="row reverse">
                                 <div className="col-lg-6">
-                                         <img src="/images/Mask Group 6.png" alt="fast payment"></img>
+                                         <img src="/images/Mask Group 6.png" className="feature-img" alt="fast payment"></img>
                                 </div>
                                 <div className="col-lg-6 flex-align-items flex-column ">
                                     <div className="p-0-20">
-                                        <h3 className="h-3 pb-20 ">Take <span className="span-color">Care</span> of Your Clients</h3>
-                                        <p className="paragraph pb-20  pr-20">Tracking the status of your invoices and transactions has never been easier. Stay on top of your work, keep clients happy and let Invoice Point take care of the rest for you.</p>
+                                        <h3 className="h-3 pb-20 second-feature">Take <span className="span-color">Care</span> of Your Clients</h3>
+                                        <p className="paragraph pb-20  pr-20 second-feature">Tracking the status of your invoices and transactions has never been easier. Stay on top of your work, keep clients happy and let Invoice Point take care of the rest for you.</p>
                                 `   </div>`
                                 </div>
                         </div>
                         <div className="row ">
                                 <div className="col-lg-6">
-                                         <img src="/images/Mask Group 8.png" alt="invoice sharing"></img>
+                                         <img src="/images/Mask Group 8.png" className="feature-img" alt="invoice sharing"></img>
                                 </div>
                                 <div className="col-lg-6 flex-align-items flex-column">
                                         <h3 className="h-3 pb-20 pl-10">Invoice Sharing Made <span className="span-color">Simple</span> </h3>

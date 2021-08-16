@@ -31,8 +31,10 @@ export default function SocialProof(){
                         <div className="flex-space-around">
                         {socialProof.map((i => (
                             <div className="col-lg-3 flex-center-align" key={i.id}>
-                                <div className="box flex-center-align">
+                                <div className="col-lg-12">
+                                <div className=" box flex-center-align">
                                     <img src={i.imgURL} alt={i.alt} />
+                                </div>
                                 </div>
                             </div>
                         )))}

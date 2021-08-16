@@ -17,7 +17,7 @@ export default function Trial() {
                                 <Ticks/>
                     </div>
                     <div className="col-lg-6">
-                        <img src="/images/Mask Group 10.png" className="freeimg"></img>
+                        <img src="/images/Mask Group 10.png"  className="freeimg"></img>
                     </div>
                 </div>
             </div>
